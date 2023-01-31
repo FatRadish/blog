@@ -22,9 +22,9 @@ export default [
       '@vueuse/core',
       'pinia',
     ],
-    dts: true,
+    dts: '../../auto-imports.d.ts',
     dirs: ['./src/composables'],
-    vueTemplate: true,
+    vueTemplate: false,
   }),
   Icons({
     compiler: 'vue3',

@@ -12,6 +12,7 @@ declare module '@vue/runtime-core' {
     AppProvider: typeof import('./../src/components/common/AppProvider.vue')['default']
     ArticlePage: typeof import('./../src/components/page/ArticlePage.vue')['default']
     BackTop: typeof import('./../src/components/other/BackTop.vue')['default']
+    BackToTop: typeof import('./../src/components/other/BackToTop.vue')['default']
     BannerCard: typeof import('./../src/components/page/BannerCard.vue')['default']
     BannerPage: typeof import('./../src/components/page/BannerPage.vue')['default']
     Comment: typeof import('./../src/components/comment/Comment.vue')['default']
